@@ -6,19 +6,19 @@ using UnityEngine.UI;
 public class ItemCollector : MonoBehaviour
 {
 
-    int coins = 0;
+    int Memories = 0;
 
-    [SerializeField] Text coinsText;
+    [SerializeField] Text MemoriesText;
     
     [SerializeField] AudioSource collectionSound;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other .gameObject.gameObject.CompareTag("Coin"))
+        if (other .gameObject.gameObject.CompareTag("Memory"))
         {
             Destroy(other.gameObject);
-            coins++;
-           coinsText.text = "Coins:" + coins;
+            Memories++;
+           MemoriesText.text = "Memories:" + Memories;
             collectionSound.Play();
         }
     }
