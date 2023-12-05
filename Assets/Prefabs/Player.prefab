@@ -41,7 +41,7 @@ Transform:
   - {fileID: 4659742588252596514}
   - {fileID: 7046657730376504758}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1421112576653115123
 MeshFilter:
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53aaa7c7df637bb46ab39beb1e7affd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsText: {fileID: 0}
+  MemoriesText: {fileID: 0}
   collectionSound: {fileID: 4120027742149825756}
 --- !u!114 &992927161455127333
 MonoBehaviour:
