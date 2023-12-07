@@ -62,4 +62,3 @@ public class PlayerAnimation2 : MonoBehaviour
         this.anim.SetFloat("horizontal", horizontalAxis);
     }
 }
-d

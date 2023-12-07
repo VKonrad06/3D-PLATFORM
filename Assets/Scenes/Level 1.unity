@@ -7076,13 +7076,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   grounded: 1
+  ground: 0.3
 --- !u!114 &2081634005 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5161293480415108078, guid: 09bbd7723c0ad1f408d7d6f21a3ae525, type: 3}
   m_PrefabInstance: {fileID: 5720109900271545614}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081633990}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcfc705bbde36a44aa3d0cfeb5a63c61, type: 3}
   m_Name: 
@@ -7486,7 +7487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5161293480415108078, guid: 09bbd7723c0ad1f408d7d6f21a3ae525, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5814733822872994747, guid: 09bbd7723c0ad1f408d7d6f21a3ae525, type: 3}
       propertyPath: m_Name
